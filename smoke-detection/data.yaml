@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['smoke']
+
+roboflow:
+  workspace: project-5v4jq
+  project: smoke-detection-hroja
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-5v4jq/smoke-detection-hroja/dataset/1
